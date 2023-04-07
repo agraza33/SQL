@@ -1,0 +1,29 @@
+CREATE TABLE clothing_store (id INTEGER PRIMARY KEY, name TEXT, color TEXT, quantity INTEGER, price NUMERIC);
+
+
+INSERT INTO clothing_store VALUES (1, 'T-shirt', 'Black', 2, 15.25);
+INSERT INTO clothing_store VALUES (2, 'Blouse', 'White', 5, 107.23);
+INSERT INTO clothing_store VALUES (3, 'Sports Bra', 'Nude', 1,23.99);
+INSERT INTO clothing_store VALUES (4, 'Jeans', 'Blues', 6, 197.34);
+INSERT INTO clothing_store VALUES (5, 'Pants', 'Pink', 3, 67.98);
+INSERT INTO clothing_store VALUES (6, 'Shorts', 'Khaki', 8,215.92);
+INSERT INTO clothing_store VALUES (7, 'Capris', 'Black', 4, 67.92);
+INSERT INTO clothing_store VALUES (8, 'Underwear', 'Orange', 6, 30.15);
+INSERT INTO clothing_store VALUES (9, 'Swim Suit', 'Yellow', 2, 65.12);
+INSERT INTO clothing_store VALUES (10, 'Cover Up', 'Lilac', 1, 19.99);
+INSERT INTO clothing_store VALUES (11, 'Skirt', 'Beige', 4, 45.44);
+INSERT INTO clothing_store VALUES (12, 'Ankle Socks', 'Black', 3, 10.99);
+INSERT INTO clothing_store VALUES (13, 'Lace Bra','Red', 1, 32.88);
+INSERT INTO clothing_store VALUES (14, 'Lace Underwear', 'Red', 3, 24.99);
+INSERT INTO clothing_store VALUES (15,'Long Socks', 'White', 2, 5.99);
+
+
+SELECT * FROM clothing_store ORDER BY price;
+
+
+SELECT SUM(Price) FROM clothing_store
+
+
+
+ 
+
